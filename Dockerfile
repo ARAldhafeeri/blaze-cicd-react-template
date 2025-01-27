@@ -4,9 +4,6 @@ WORKDIR /app/build
 
 COPY . .
 
-RUN ls ./src/Layouts/Authenticated
-
-
 RUN npm install
 
 
